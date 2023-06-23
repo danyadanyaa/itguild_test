@@ -33,6 +33,12 @@ class UsersViewSet(UserViewSet):
 
 class Service(APIView):
     def post(self, request):
-        data = markopolo(request.data.get('number'))
-        return Response({"result": data})
+        request_data = request.data.get('numbers')
+        if type(request_data) is list:
+            print(request_data)
+            data = [markopolo(number) for number in request_data]
+            return Response({"result": data})
+        else:
+            data = markopolo(request_data)
+            return Response({"result": data})
 
