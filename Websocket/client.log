@@ -1,0 +1,25 @@
+2023-06-23 18:33:13,828 - invalid literal for int() with base 10: 'as'
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\client.py", line 29, in send
+    while int(msg):
+ValueError: invalid literal for int() with base 10: 'as'
+2023-06-23 18:33:13,828 - [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\client.py", line 17, in receive
+    data = socket.recv(1024)
+ConnectionAbortedError: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+2023-06-23 18:35:15,017 - [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\client.py", line 17, in receive
+    data = socket.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-06-23 18:39:25,208 - 
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\client.py", line 33, in send
+    raise Exception
+Exception
+2023-06-23 18:39:25,209 - [WinError 10038] Сделана попытка выполнить операцию на объекте, не являющемся сокетом
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\client.py", line 17, in receive
+    data = socket.recv(1024)
+OSError: [WinError 10038] Сделана попытка выполнить операцию на объекте, не являющемся сокетом

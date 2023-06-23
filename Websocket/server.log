@@ -1,0 +1,61 @@
+2023-06-23 18:33:13,828 - [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\server.py", line 20, in new_client
+    data = connection.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-06-23 18:34:11,818 - 127.0.0.1:53524//b'12'
+2023-06-23 18:34:20,068 - [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\server.py", line 20, in new_client
+    data = connection.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-06-23 18:34:29,470 - 127.0.0.1:53574//b'123'
+2023-06-23 18:34:31,279 - 127.0.0.1:53574//b'1234'
+2023-06-23 18:34:32,710 - 127.0.0.1:53574//b'4'
+2023-06-23 18:34:35,289 - 127.0.0.1:53574//b'3'
+2023-06-23 18:34:44,690 - 127.0.0.1:53574//b'2'
+2023-06-23 18:35:27,121 - 127.0.0.1:53603//b'12'
+2023-06-23 18:35:36,102 - 127.0.0.1:53603//b'123'
+2023-06-23 18:36:37,059 - [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\server.py", line 20, in new_client
+    data = connection.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-06-23 18:36:38,394 - 127.0.0.1:53687//b'12'
+2023-06-23 18:37:07,604 - [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\server.py", line 20, in new_client
+    data = connection.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-06-23 18:37:11,554 - 127.0.0.1:53701//b'12'
+2023-06-23 18:37:12,825 - 127.0.0.1:53701//b'12'
+2023-06-23 18:37:18,905 - 127.0.0.1:53701//b'2'
+2023-06-23 18:38:13,343 - [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\server.py", line 20, in new_client
+    data = connection.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-06-23 18:38:31,392 - [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\server.py", line 20, in new_client
+    data = connection.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-06-23 18:38:33,467 - 127.0.0.1:53743//b'12'
+2023-06-23 18:38:52,669 - [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\server.py", line 20, in new_client
+    data = connection.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-06-23 18:38:55,778 - 127.0.0.1:53754//b'123'
+2023-06-23 18:38:56,987 - 127.0.0.1:53754//b'32'
+2023-06-23 18:39:17,944 - [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\server.py", line 20, in new_client
+    data = connection.recv(1024)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2023-06-23 18:39:20,518 - 127.0.0.1:53769//b'12'
+2023-06-23 18:39:25,208 - 127.0.0.1:53769 is disconnected
+Traceback (most recent call last):
+  File "C:\Users\Yadaeho\Desktop\Python\itguild\Websocket\server.py", line 23, in new_client
+    raise Exception(f"{user_ip}:{user_port} is disconnected")
+Exception: 127.0.0.1:53769 is disconnected
